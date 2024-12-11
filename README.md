@@ -29,4 +29,10 @@ Note: You may want to create a new file in whichever path you would prefer, eith
 pip is a package installer that allows to install different libraries in an easier and efficient manner. You can download and install it from this page: https://pypi.org/project/pip/ and follow the instructions. 
 OR you can open command prompt and download pip by typing: **curl https://bootstrap.pypa.io/get-pip.py -o** which will download the installer. Next, you will want to run the installer bby typing **python get-pip.py**. Finally you can verify the installation and your version of pip by typing **pip --version**
 
+create Pytnon environment:
+Navigate to the project directory by typing the following prompt in command prompt: cd/path/to/project.
+Create a virtual environment using venv: pyton --m venv env (where env is you new environemt name. 
+Activate the virtual environment: env\Scripts\activate. 
+
+
 
