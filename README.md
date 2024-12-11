@@ -14,7 +14,7 @@ You can then dowload like any executable files.
 Do not forget to add python to path, this will tell windows to create a shortcut so that you can launch python from command prompt.
 Note, Make sure you don't have many versions of python in path
 
-#### Downloading python using command prompt 
+### Downloading python using command prompt 
 
 Open command prompt by pressing **Win + R** and typing **cmd**, then press enter. 
 Change your dirctory by typing __cd C:\Users\user\Downloads__ which will take you to the Downloads directory 
@@ -24,7 +24,7 @@ Run the following command: **python-3.x.x.exe /quiet InstallAllUsers=1 PrependPa
 For the purposes of this repo, you would be ok with installing the newest version (for December 2024) by changing the x.x in python-3.x.x with 12 and 10 respectivelly. Else, you can use the Python version for this repo which is 3.8.10 
 
 ## downloading pip and Creating a virtual environment 
-Note: You may want to create a new file in whichever path you would prefer, either in windows file explorer or using command prompt by going to a specific path (most likely being under documents) by typing **cd C:\Users\user\Documents** and then typing **mkdir \new project** (you can name it whichever name you must.
+Note: You may want to create a new file in whichever path you would prefer, either in windows file explorer or using command prompt by going to a specific path (most likely being under documents) by typing **cd C:\Users\user\Documents** and then typing **mkdir \new project** (you can name it whichever name you must. Also, if you downloaded pytnon 3.4 and on (which you should) you already have pip installed in your system alongside Python 
 
 pip is a package installer that allows to install different libraries in an easier and efficient manner. You can download and install it from this page: https://pypi.org/project/pip/ and follow the instructions. 
 OR you can open command prompt and download pip by typing: **curl https://bootstrap.pypa.io/get-pip.py -o** which will download the installer. Next, you will want to run the installer bby typing **python get-pip.py**. Finally you can verify the installation and your version of pip by typing **pip --version**
